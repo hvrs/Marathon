@@ -11,3 +11,4 @@ E:\Project\Marathon_Plahotnyy\Marathon_Plahotnyy\obj\Debug\Marathon_Plahotnyy.cs
 E:\Project\Marathon_Plahotnyy\Marathon_Plahotnyy\obj\Debug\Marathon_Plahotnyy.exe
 E:\Project\Marathon_Plahotnyy\Marathon_Plahotnyy\obj\Debug\Marathon_Plahotnyy.pdb
 E:\Project\Marathon_Plahotnyy\Marathon_Plahotnyy\obj\Debug\Marathon_Plahotnyy.map_Form.resources
+E:\Project\Marathon_Plahotnyy\Marathon_Plahotnyy\obj\Debug\Marathon_Plahotnyy.howLong_Form.resources
