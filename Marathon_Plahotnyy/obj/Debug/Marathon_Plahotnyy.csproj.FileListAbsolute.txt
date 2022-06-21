@@ -1,0 +1,12 @@
+E:\Project\Marathon_Plahotnyy\Marathon_Plahotnyy\bin\Debug\Marathon_Plahotnyy.exe.config
+E:\Project\Marathon_Plahotnyy\Marathon_Plahotnyy\bin\Debug\Marathon_Plahotnyy.exe
+E:\Project\Marathon_Plahotnyy\Marathon_Plahotnyy\bin\Debug\Marathon_Plahotnyy.pdb
+E:\Project\Marathon_Plahotnyy\Marathon_Plahotnyy\obj\Debug\Marathon_Plahotnyy.csproj.AssemblyReference.cache
+E:\Project\Marathon_Plahotnyy\Marathon_Plahotnyy\obj\Debug\Marathon_Plahotnyy.csproj.SuggestedBindingRedirects.cache
+E:\Project\Marathon_Plahotnyy\Marathon_Plahotnyy\obj\Debug\Marathon_Plahotnyy.inform_Form.resources
+E:\Project\Marathon_Plahotnyy\Marathon_Plahotnyy\obj\Debug\Marathon_Plahotnyy.main_Form.resources
+E:\Project\Marathon_Plahotnyy\Marathon_Plahotnyy\obj\Debug\Marathon_Plahotnyy.Properties.Resources.resources
+E:\Project\Marathon_Plahotnyy\Marathon_Plahotnyy\obj\Debug\Marathon_Plahotnyy.csproj.GenerateResource.cache
+E:\Project\Marathon_Plahotnyy\Marathon_Plahotnyy\obj\Debug\Marathon_Plahotnyy.csproj.CoreCompileInputs.cache
+E:\Project\Marathon_Plahotnyy\Marathon_Plahotnyy\obj\Debug\Marathon_Plahotnyy.exe
+E:\Project\Marathon_Plahotnyy\Marathon_Plahotnyy\obj\Debug\Marathon_Plahotnyy.pdb
