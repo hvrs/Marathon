@@ -56,11 +56,11 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
+            this.lbl_bmrSit = new System.Windows.Forms.Label();
+            this.lbl_bmrSmall = new System.Windows.Forms.Label();
+            this.lbl_bmrSredn = new System.Windows.Forms.Label();
+            this.lbl_bmrSiln = new System.Windows.Forms.Label();
+            this.lbl_bmrMaks = new System.Windows.Forms.Label();
             this.btn_info = new System.Windows.Forms.Button();
             this.pnl_urvnAct = new System.Windows.Forms.Panel();
             this.label19 = new System.Windows.Forms.Label();
@@ -88,11 +88,11 @@
             this.panel1.BackColor = System.Drawing.Color.White;
             this.panel1.Controls.Add(this.pnl_urvnAct);
             this.panel1.Controls.Add(this.btn_info);
-            this.panel1.Controls.Add(this.label18);
-            this.panel1.Controls.Add(this.label17);
-            this.panel1.Controls.Add(this.label16);
-            this.panel1.Controls.Add(this.label15);
-            this.panel1.Controls.Add(this.label14);
+            this.panel1.Controls.Add(this.lbl_bmrMaks);
+            this.panel1.Controls.Add(this.lbl_bmrSiln);
+            this.panel1.Controls.Add(this.lbl_bmrSredn);
+            this.panel1.Controls.Add(this.lbl_bmrSmall);
+            this.panel1.Controls.Add(this.lbl_bmrSit);
             this.panel1.Controls.Add(this.label13);
             this.panel1.Controls.Add(this.label12);
             this.panel1.Controls.Add(this.label4);
@@ -181,6 +181,8 @@
             // 
             // btn_men
             // 
+            this.btn_men.FlatAppearance.BorderSize = 4;
+            this.btn_men.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_men.Image = global::Marathon_Plahotnyy.Properties.Resources.man_icon_icons_com_50102;
             this.btn_men.Location = new System.Drawing.Point(47, 91);
             this.btn_men.Name = "btn_men";
@@ -189,9 +191,11 @@
             this.btn_men.Text = "Мужской";
             this.btn_men.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btn_men.UseVisualStyleBackColor = true;
+            this.btn_men.Click += new System.EventHandler(this.btn_men_Click);
             // 
             // btn_woman
             // 
+            this.btn_woman.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_woman.Image = global::Marathon_Plahotnyy.Properties.Resources.woman_icon_icons_com_49954;
             this.btn_woman.Location = new System.Drawing.Point(179, 91);
             this.btn_woman.Name = "btn_woman";
@@ -200,6 +204,7 @@
             this.btn_woman.Text = "Женский";
             this.btn_woman.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btn_woman.UseVisualStyleBackColor = true;
+            this.btn_woman.Click += new System.EventHandler(this.btn_woman_Click);
             // 
             // tb_yearsOld
             // 
@@ -298,6 +303,7 @@
             this.btn_raschet.TabIndex = 8;
             this.btn_raschet.Text = "Рассчитать";
             this.btn_raschet.UseVisualStyleBackColor = false;
+            this.btn_raschet.Click += new System.EventHandler(this.btn_raschet_Click);
             // 
             // btn_otmena
             // 
@@ -412,60 +418,60 @@
             this.label13.TabIndex = 68;
             this.label13.Text = "Максимальная активность:";
             // 
-            // label14
+            // lbl_bmrSit
             // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label14.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label14.Location = new System.Drawing.Point(676, 169);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(17, 18);
-            this.label14.TabIndex = 69;
-            this.label14.Text = "0";
+            this.lbl_bmrSit.AutoSize = true;
+            this.lbl_bmrSit.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lbl_bmrSit.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.lbl_bmrSit.Location = new System.Drawing.Point(676, 169);
+            this.lbl_bmrSit.Name = "lbl_bmrSit";
+            this.lbl_bmrSit.Size = new System.Drawing.Size(17, 18);
+            this.lbl_bmrSit.TabIndex = 69;
+            this.lbl_bmrSit.Text = "0";
             // 
-            // label15
+            // lbl_bmrSmall
             // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label15.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.label15.Location = new System.Drawing.Point(676, 197);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(17, 18);
-            this.label15.TabIndex = 70;
-            this.label15.Text = "0";
+            this.lbl_bmrSmall.AutoSize = true;
+            this.lbl_bmrSmall.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lbl_bmrSmall.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.lbl_bmrSmall.Location = new System.Drawing.Point(676, 197);
+            this.lbl_bmrSmall.Name = "lbl_bmrSmall";
+            this.lbl_bmrSmall.Size = new System.Drawing.Size(17, 18);
+            this.lbl_bmrSmall.TabIndex = 70;
+            this.lbl_bmrSmall.Text = "0";
             // 
-            // label16
+            // lbl_bmrSredn
             // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label16.ForeColor = System.Drawing.Color.DarkOrange;
-            this.label16.Location = new System.Drawing.Point(676, 227);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(17, 18);
-            this.label16.TabIndex = 71;
-            this.label16.Text = "0";
+            this.lbl_bmrSredn.AutoSize = true;
+            this.lbl_bmrSredn.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lbl_bmrSredn.ForeColor = System.Drawing.Color.DarkOrange;
+            this.lbl_bmrSredn.Location = new System.Drawing.Point(676, 227);
+            this.lbl_bmrSredn.Name = "lbl_bmrSredn";
+            this.lbl_bmrSredn.Size = new System.Drawing.Size(17, 18);
+            this.lbl_bmrSredn.TabIndex = 71;
+            this.lbl_bmrSredn.Text = "0";
             // 
-            // label17
+            // lbl_bmrSiln
             // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label17.ForeColor = System.Drawing.Color.Red;
-            this.label17.Location = new System.Drawing.Point(676, 258);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(17, 18);
-            this.label17.TabIndex = 72;
-            this.label17.Text = "0";
+            this.lbl_bmrSiln.AutoSize = true;
+            this.lbl_bmrSiln.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lbl_bmrSiln.ForeColor = System.Drawing.Color.Red;
+            this.lbl_bmrSiln.Location = new System.Drawing.Point(676, 258);
+            this.lbl_bmrSiln.Name = "lbl_bmrSiln";
+            this.lbl_bmrSiln.Size = new System.Drawing.Size(17, 18);
+            this.lbl_bmrSiln.TabIndex = 72;
+            this.lbl_bmrSiln.Text = "0";
             // 
-            // label18
+            // lbl_bmrMaks
             // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label18.ForeColor = System.Drawing.Color.Maroon;
-            this.label18.Location = new System.Drawing.Point(676, 287);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(17, 18);
-            this.label18.TabIndex = 73;
-            this.label18.Text = "0";
+            this.lbl_bmrMaks.AutoSize = true;
+            this.lbl_bmrMaks.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lbl_bmrMaks.ForeColor = System.Drawing.Color.Maroon;
+            this.lbl_bmrMaks.Location = new System.Drawing.Point(676, 287);
+            this.lbl_bmrMaks.Name = "lbl_bmrMaks";
+            this.lbl_bmrMaks.Size = new System.Drawing.Size(17, 18);
+            this.lbl_bmrMaks.TabIndex = 73;
+            this.lbl_bmrMaks.Text = "0";
             // 
             // btn_info
             // 
@@ -495,7 +501,7 @@
             this.pnl_urvnAct.Controls.Add(this.label21);
             this.pnl_urvnAct.Controls.Add(this.label20);
             this.pnl_urvnAct.Controls.Add(this.label19);
-            this.pnl_urvnAct.Location = new System.Drawing.Point(385, 91);
+            this.pnl_urvnAct.Location = new System.Drawing.Point(398, 91);
             this.pnl_urvnAct.Name = "pnl_urvnAct";
             this.pnl_urvnAct.Size = new System.Drawing.Size(429, 260);
             this.pnl_urvnAct.TabIndex = 75;
@@ -665,7 +671,7 @@
             this.Controls.Add(this.lbl_timeEnd);
             this.Controls.Add(this.panel1);
             this.Name = "BMR_Form";
-            this.Text = "BMR_Form";
+            this.Text = "Marathon Skills 2016 - BMR calculator";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.pnl_urvnAct.ResumeLayout(false);
@@ -695,11 +701,11 @@
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Button btn_info;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label lbl_bmrMaks;
+        private System.Windows.Forms.Label lbl_bmrSiln;
+        private System.Windows.Forms.Label lbl_bmrSredn;
+        private System.Windows.Forms.Label lbl_bmrSmall;
+        private System.Windows.Forms.Label lbl_bmrSit;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label4;
