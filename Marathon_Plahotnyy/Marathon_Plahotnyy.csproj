@@ -84,6 +84,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="howLong_Form.resx">
+      <DependentUpon>howLong_Form.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="inform_Form.resx">
       <DependentUpon>inform_Form.cs</DependentUpon>
     </EmbeddedResource>

@@ -10,3 +10,4 @@ E:\Project\Marathon_Plahotnyy\Marathon_Plahotnyy\obj\Debug\Marathon_Plahotnyy.cs
 E:\Project\Marathon_Plahotnyy\Marathon_Plahotnyy\obj\Debug\Marathon_Plahotnyy.csproj.CoreCompileInputs.cache
 E:\Project\Marathon_Plahotnyy\Marathon_Plahotnyy\obj\Debug\Marathon_Plahotnyy.exe
 E:\Project\Marathon_Plahotnyy\Marathon_Plahotnyy\obj\Debug\Marathon_Plahotnyy.pdb
+E:\Project\Marathon_Plahotnyy\Marathon_Plahotnyy\obj\Debug\Marathon_Plahotnyy.map_Form.resources
