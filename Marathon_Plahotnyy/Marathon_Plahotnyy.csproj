@@ -84,6 +84,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="BMI_Form.resx">
+      <DependentUpon>BMI_Form.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="BMR_Form.resx">
       <DependentUpon>BMR_Form.cs</DependentUpon>
     </EmbeddedResource>
@@ -152,6 +155,7 @@
     <Content Include="Res\teatro-municipal.jpg" />
     <Content Include="Res\toilets.png" />
     <Content Include="Res\underweigt.png" />
+    <Content Include="Res\unknown.png" />
     <Content Include="Res\woman_icon-icons.com_49954.png" />
     <Content Include="Res\worm.jpg" />
   </ItemGroup>

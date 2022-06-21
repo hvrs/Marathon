@@ -63,5 +63,43 @@ namespace Marathon_Plahotnyy
             btn_men.FlatAppearance.BorderSize = 0;
             btn_woman.FlatAppearance.BorderSize = 4;
         }
+
+        private void btn_otmena_Click(object sender, EventArgs e)
+        {
+            Hide();
+            main_Form main_Form = new main_Form();
+            main_Form.ShowDialog();
+            Close();
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tb_rost_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tb_ves_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

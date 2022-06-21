@@ -13,3 +13,4 @@ E:\Project\Marathon_Plahotnyy\Marathon_Plahotnyy\obj\Debug\Marathon_Plahotnyy.pd
 E:\Project\Marathon_Plahotnyy\Marathon_Plahotnyy\obj\Debug\Marathon_Plahotnyy.map_Form.resources
 E:\Project\Marathon_Plahotnyy\Marathon_Plahotnyy\obj\Debug\Marathon_Plahotnyy.howLong_Form.resources
 E:\Project\Marathon_Plahotnyy\Marathon_Plahotnyy\obj\Debug\Marathon_Plahotnyy.BMR_Form.resources
+E:\Project\Marathon_Plahotnyy\Marathon_Plahotnyy\obj\Debug\Marathon_Plahotnyy.BMI_Form.resources
