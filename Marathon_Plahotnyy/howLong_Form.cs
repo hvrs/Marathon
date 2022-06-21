@@ -29,6 +29,7 @@ namespace Marathon_Plahotnyy
 
         private void btn_back_Click(object sender, EventArgs e)
         {
+            Hide();
             main_Form main_Form = new main_Form();
             main_Form.ShowDialog();
             Close();

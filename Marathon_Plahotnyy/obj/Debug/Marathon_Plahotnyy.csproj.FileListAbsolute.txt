@@ -12,3 +12,4 @@ E:\Project\Marathon_Plahotnyy\Marathon_Plahotnyy\obj\Debug\Marathon_Plahotnyy.ex
 E:\Project\Marathon_Plahotnyy\Marathon_Plahotnyy\obj\Debug\Marathon_Plahotnyy.pdb
 E:\Project\Marathon_Plahotnyy\Marathon_Plahotnyy\obj\Debug\Marathon_Plahotnyy.map_Form.resources
 E:\Project\Marathon_Plahotnyy\Marathon_Plahotnyy\obj\Debug\Marathon_Plahotnyy.howLong_Form.resources
+E:\Project\Marathon_Plahotnyy\Marathon_Plahotnyy\obj\Debug\Marathon_Plahotnyy.BMR_Form.resources

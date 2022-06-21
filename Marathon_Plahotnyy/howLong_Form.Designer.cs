@@ -450,7 +450,7 @@
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "howLong_Form";
-            this.Text = "howLong_Form";
+            this.Text = "Marathon Skills 2016 - How long is a marathon";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.tabControl1.ResumeLayout(false);

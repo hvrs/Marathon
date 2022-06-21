@@ -16,5 +16,23 @@ namespace Marathon_Plahotnyy
         {
             InitializeComponent();
         }
+
+        private void btn_info_Click(object sender, EventArgs e)
+        {
+            pnl_urvnAct.Visible = true;
+        }
+
+        private void btn_close_Click(object sender, EventArgs e)
+        {
+            pnl_urvnAct.Visible = false;
+        }
+
+        private void btn_back_Click(object sender, EventArgs e)
+        {
+            Hide();
+            main_Form main_Form = new main_Form();
+            main_Form.ShowDialog();
+            Close();
+        }
     }
 }

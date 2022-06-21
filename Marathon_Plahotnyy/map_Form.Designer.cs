@@ -38,6 +38,7 @@
             this.btn_checkpoint2 = new System.Windows.Forms.Button();
             this.btn_checkpoint1 = new System.Windows.Forms.Button();
             this.pnl_checkpoints = new System.Windows.Forms.Panel();
+            this.btn_closePanel = new System.Windows.Forms.Button();
             this.bl_par5 = new System.Windows.Forms.Label();
             this.bl_par4 = new System.Windows.Forms.Label();
             this.bl_par3 = new System.Windows.Forms.Label();
@@ -55,7 +56,6 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lbl_information = new System.Windows.Forms.Label();
             this.btn_back = new System.Windows.Forms.Button();
-            this.btn_closePanel = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.pnl_checkpoints.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pb_5)).BeginInit();
@@ -229,6 +229,21 @@
             this.pnl_checkpoints.Name = "pnl_checkpoints";
             this.pnl_checkpoints.Size = new System.Drawing.Size(223, 258);
             this.pnl_checkpoints.TabIndex = 1;
+            // 
+            // btn_closePanel
+            // 
+            this.btn_closePanel.BackColor = System.Drawing.Color.Silver;
+            this.btn_closePanel.BackgroundImage = global::Marathon_Plahotnyy.Properties.Resources._274c;
+            this.btn_closePanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_closePanel.FlatAppearance.BorderSize = 0;
+            this.btn_closePanel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_closePanel.Location = new System.Drawing.Point(201, 3);
+            this.btn_closePanel.Name = "btn_closePanel";
+            this.btn_closePanel.Size = new System.Drawing.Size(19, 17);
+            this.btn_closePanel.TabIndex = 30;
+            this.btn_closePanel.Text = " ";
+            this.btn_closePanel.UseVisualStyleBackColor = false;
+            this.btn_closePanel.Click += new System.EventHandler(this.btn_closePanel_Click);
             // 
             // bl_par5
             // 
@@ -409,21 +424,6 @@
             this.btn_back.UseVisualStyleBackColor = false;
             this.btn_back.Click += new System.EventHandler(this.btn_back_Click);
             // 
-            // btn_closePanel
-            // 
-            this.btn_closePanel.BackColor = System.Drawing.Color.Silver;
-            this.btn_closePanel.BackgroundImage = global::Marathon_Plahotnyy.Properties.Resources._274c;
-            this.btn_closePanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_closePanel.FlatAppearance.BorderSize = 0;
-            this.btn_closePanel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_closePanel.Location = new System.Drawing.Point(201, 3);
-            this.btn_closePanel.Name = "btn_closePanel";
-            this.btn_closePanel.Size = new System.Drawing.Size(19, 17);
-            this.btn_closePanel.TabIndex = 30;
-            this.btn_closePanel.Text = " ";
-            this.btn_closePanel.UseVisualStyleBackColor = false;
-            this.btn_closePanel.Click += new System.EventHandler(this.btn_closePanel_Click);
-            // 
             // map_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -434,7 +434,7 @@
             this.Controls.Add(this.lbl_information);
             this.Controls.Add(this.panel1);
             this.Name = "map_Form";
-            this.Text = "map_Form";
+            this.Text = "Marathon Skills 2016 - Interactive map";
             this.Load += new System.EventHandler(this.map_Form_Load);
             this.panel1.ResumeLayout(false);
             this.pnl_checkpoints.ResumeLayout(false);

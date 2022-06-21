@@ -185,7 +185,7 @@
             this.Controls.Add(this.lbl_nameMarph);
             this.Controls.Add(this.panel1);
             this.Name = "inform_Form";
-            this.Text = "inform_Form";
+            this.Text = "Marathon Skills 2016 - About Marathon Skills 2016";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
